@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Host: https://startup-agency-alpha.vercel.app
+Sitemap: https://startup-agency-alpha.vercel.app/sitemap.xml
