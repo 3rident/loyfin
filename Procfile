@@ -1,0 +1,3 @@
+"scripts": {
+  "start": "cd frontend && npm start"
+}
