@@ -4,22 +4,22 @@ import { rgba } from 'polished';
 import Image from 'components/image';
 import SubscriptionForm from 'components/subscription-form';
 import illustration from 'assets/images/banner.png';
-import paypal from 'assets/images/paypal.png';
-import google from 'assets/images/google.png';
-import dropbox from 'assets/images/dropbox.png';
+import superfluid from 'assets/images/superfluid.png';
+import uniswap from 'assets/images/uniswap.png';
+import circle from 'assets/images/circle.png';
 
 const logos = [
   {
-    name: 'Paypal',
-    src: paypal,
+    name: 'Supefluid',
+    src: superfluid,
   },
   {
-    name: 'Google',
-    src: google,
+    name: 'Uniswap',
+    src: uniswap,
   },
   {
-    name: 'Dropbox',
-    src: dropbox,
+    name: 'Circle',
+    src: circle,
   },
 ];
 
@@ -37,7 +37,7 @@ const Banner = () => {
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             <Flex sx={styles.builtWith}>
-              <Text as="span">Built With:</Text>
+              <Text as="span">Used</Text>
               <Flex sx={styles.sponsor}>
                 {logos?.map((logo, index) => (
                   <Flex as="figure" key={index}>
