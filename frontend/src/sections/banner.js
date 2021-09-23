@@ -36,7 +36,7 @@ const Banner = () => {
             Buy these tokens and distribute to customers or employees as loyalty rewards directly
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
-            <Flex sx={styles.sponsoredBy}>
+            <Flex sx={styles.builtWith}>
               <Text as="span">Built With:</Text>
               <Flex sx={styles.sponsor}>
                 {logos?.map((logo, index) => (
@@ -122,7 +122,7 @@ const styles = {
       minHeight: [40, 50, null, null, null, 60],
     },
   },
-  sponsoredBy: {
+  builtWith: {
     alignItems: 'center',
     maxWidth: [null, null, null, 470, 'none'],
     m: [null, null, null, '30px auto', '30px 0 0'],
