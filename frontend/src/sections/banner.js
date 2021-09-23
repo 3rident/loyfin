@@ -37,7 +37,7 @@ const Banner = () => {
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             <Flex sx={styles.sponsoredBy}>
-              <Text as="span">Sponsored by:</Text>
+              <Text as="span">Built With:</Text>
               <Flex sx={styles.sponsor}>
                 {logos?.map((logo, index) => (
                   <Flex as="figure" key={index}>
