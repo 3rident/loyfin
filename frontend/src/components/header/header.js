@@ -59,7 +59,7 @@ export default function Header() {
                 <Flex sx={styles.buttonGroup}>
                   <button sx={styles.login}>
                     <Image src={lock} alt="lock icon" />
-                    Login
+                    Connect Wallet
                   </button>
                   <Button variant="text" sx={styles.getStarted}>
                     Get Started
