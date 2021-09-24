@@ -58,7 +58,7 @@ export default function Header() {
                 </Flex>
                 <Flex sx={styles.buttonGroup}>
                   <Button variant="text" sx={styles.getStarted}>
-                    Get Started
+                    Connect Wallet
                   </Button>
                 </Flex>
                 <NavbarDrawer />
