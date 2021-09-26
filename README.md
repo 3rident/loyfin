@@ -1,7 +1,7 @@
 # Loyfin
 
 ```
--- analytics
+|-- analytics
 |   `-- index.js
 |-- assets
 |   |-- css
@@ -10,6 +10,7 @@
 |       |-- app.png
 |       |-- banner.png
 |       |-- circle.png
+|       |-- corporate.png
 |       |-- dashboard.png
 |       |-- icons
 |       |   |-- check-circle.png
@@ -78,11 +79,9 @@
 |   |-- app-feature.js
 |   |-- banner.js
 |   |-- dashboard.js
-|   |-- premium-feature.js
-|   |-- pricing.js
+|   |-- happyness.js
 |   |-- subscribe.js
-|   |-- support.js
-|   `-- testimonials.js
+|   `-- support.js
 `-- theme
     `-- index.js
 
