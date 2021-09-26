@@ -18,14 +18,14 @@ const data = [
     tabPane: [
       {
         icon: <Currency />,
-        title: 'Budget Overview',
+        title: 'Easy Exchange',
       },
     ],
     tabContent: [
       {
         image: dashboard,
-        title: `First quality feature that boost your website rank & performance`,
-        description: `Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. Get your tests delivered at let home collect sample from the victory of the supplies design system.`,
+        title: `Easy exchange into stablecoin, stablecoin to fiat at just one place`,
+        description: `Buy token with fiat currencies or stable coin like USDC tokens. Redeem tokens at local marketplace or directly at LoyFin NFT Store with $LFT 🤑️`,
         readMore: '#introduce-quality',
       },
     ],
@@ -35,14 +35,14 @@ const data = [
     tabPane: [
       {
         icon: <Cog />,
-        title: 'Create & adjust',
+        title: 'Effortless Integration',
       },
     ],
     tabContent: [
       {
         image: dashboard,
-        title: `Second quality feature that boost your website rank & performance`,
-        description: `Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. Get your tests delivered at let home collect sample from the victory of the supplies design system.`,
+        title: `Zero digital infrastructure required`,
+        description: `Corporates without digital presence can also reward $LFT to their loyal customer.`,
         readMore: '#introduce-quality',
       },
     ],
@@ -52,14 +52,14 @@ const data = [
     tabPane: [
       {
         icon: <PieChart />,
-        title: 'View Reports',
+        title: 'History',
       },
     ],
     tabContent: [
       {
         image: dashboard,
-        title: `Third quality feature that boost your website rank & performance`,
-        description: `Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. Get your tests delivered at let home collect sample from the victory of the supplies design system.`,
+        title: `Well curated dashboard with full transaction history`,
+        description: `Read your all the transaction history or swapped transactions all with in the dashboard. `,
         readMore: '#introduce-quality',
       },
     ],
@@ -69,14 +69,14 @@ const data = [
     tabPane: [
       {
         icon: <Suitcase />,
-        title: 'Optimize website',
+        title: 'Optimize Business',
       },
     ],
     tabContent: [
       {
         image: dashboard,
-        title: `Fourth quality feature that boost your website rank & performance`,
-        description: `Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. Get your tests delivered at let home collect sample from the victory of the supplies design system.`,
+        title: `Higher redemption;Higher liquity Circulation`,
+        description: `With LoyFin, loyalty redemption can be increased from 40% to 80%. Increasing more customer participation and higher circulation leading to higher economic growth`,
         readMore: '#introduce-quality',
       },
     ],
@@ -86,14 +86,14 @@ const data = [
     tabPane: [
       {
         icon: <BarChart />,
-        title: 'Custom Dashboard',
+        title: 'Streaming Tokens',
       },
     ],
     tabContent: [
       {
         image: dashboard,
-        title: `Fifth quality feature that boost your website rank & performance`,
-        description: `Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. Get your tests delivered at let home collect sample from the victory of the supplies design system.`,
+        title: `Stream the loyality token for the continous loyality`,
+        description: `Now stream the loyalty reward continously for a loyalty phase directly to the customer`,
         readMore: '#introduce-quality',
       },
     ],
