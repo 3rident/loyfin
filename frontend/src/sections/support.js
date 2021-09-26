@@ -2,20 +2,21 @@
 import { jsx, Container, Grid, Box, Flex, Heading, Text } from 'theme-ui';
 import Image from 'components/image';
 import support from 'assets/images/support.png';
+import corporate from 'assets/images/corporate.png';
 import rightArrow from 'assets/images/icons/right-arrow.png';
 
 const data = [
   {
     id: 1,
     icon: support,
-    title: 'Do you need help support',
-    description: `Get your website ads tests delivered at let collect sample from the victory of the update managements services.`,
+    title: 'Want to contribute?',
+    description: `Join as a contributor and support the $LFT system. Top contributors will recive monthly grants`,
   },
   {
     id: 2,
-    icon: support,
-    title: 'Do you need help support',
-    description: `Get your website ads tests delivered at let collect sample from the victory of the update managements services.`,
+    icon: corporate,
+    title: 'A Corporate/ Market Place Owner?',
+    description: `Adopt the $LFT system, no digital infrastructure required. Now just you and your Loyal Customer`,
   },
 ];
 

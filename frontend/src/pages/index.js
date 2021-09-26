@@ -6,7 +6,7 @@ import Layout from 'components/layout';
 import Banner from 'sections/banner';
 import Support from 'sections/support';
 import Dashboard from 'sections/dashboard';
-import Testimonials from 'sections/testimonials';
+import Happyness from 'sections/happyness';
 import Subscribe from 'sections/subscribe';
 
 export default function IndexPage() {
@@ -23,7 +23,7 @@ export default function IndexPage() {
 
         <Dashboard />
 
-        <Testimonials />
+        <Happyness />
         <Subscribe />
       </Layout>
     </ThemeProvider>

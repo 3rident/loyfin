@@ -10,6 +10,6 @@ export default [
   },
   {
     path: 'testimonials',
-    label: 'Testimonials',
+    label: 'Happyness',
   },
 ];
