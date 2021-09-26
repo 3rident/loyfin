@@ -10,16 +10,12 @@ const menuItems = [
     label: 'Home',
   },
   {
-    path: '#advertise',
-    label: 'Advertise',
+    path: '#support',
+    label: 'Support',
   },
   {
-    path: '#supports',
-    label: 'Supports',
-  },
-  {
-    path: '#marketing',
-    label: 'Marketing',
+    path: '#contribute',
+    label: 'contribute',
   },
   {
     path: '#faq',
@@ -35,7 +31,7 @@ export default function Footer() {
           <Flex sx={styles.copyright}>
             <Logo isWhite />
             <Text as="span">
-              &copy; Copyright by {new Date().getFullYear()} 3rident Group
+              &copy; Copyright by {new Date().getFullYear()} 3rident Team
             </Text>
           </Flex>
           <Flex as="ul" sx={styles.footerNav}>
