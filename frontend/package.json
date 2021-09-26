@@ -24,7 +24,7 @@
     "react-responsive": "^8.2.0",
     "react-scroll": "^1.8.1",
     "react-stickynode": "^3.0.4",
-    "swiper": "^6.3.5",
+    "swiper": "^7.0.6",
     "theme-ui": "^0.3.4"
   },
   "devDependencies": {
