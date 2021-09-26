@@ -8,7 +8,6 @@ import Support from 'sections/support';
 import Dashboard from 'sections/dashboard';
 import Happyness from 'sections/happyness';
 import Subscribe from 'sections/subscribe';
-
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
@@ -19,10 +18,7 @@ export default function IndexPage() {
         />
         <Banner />
         <Support />
-
-
         <Dashboard />
-
         <Happyness />
         <Subscribe />
       </Layout>
