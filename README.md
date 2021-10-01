@@ -1,89 +1,126 @@
-# Loyfin
-
 ```
-|-- analytics
-|   `-- index.js
-|-- assets
-|   |-- css
-|   |   `-- react-slick.css
-|   `-- images
-|       |-- app.png
-|       |-- banner.png
-|       |-- circle.png
-|       |-- corporate.png
-|       |-- dashboard.png
-|       |-- icons
-|       |   |-- check-circle.png
-|       |   |-- close.png
-|       |   |-- emoji-2.png
-|       |   |-- emoji.png
-|       |   |-- lock.png
-|       |   `-- right-arrow.png
-|       |-- logo-white.png
-|       |-- logo.png
-|       |-- messenger.png
-|       |-- superfluid.png
-|       |-- support.png
-|       |-- testimonials
-|       |   |-- 1.png
-|       |   |-- 2.png
-|       |   |-- 3.png
-|       |   |-- 4.png
-|       |   |-- 5.png
-|       |   |-- 6.png
-|       |   |-- 7.png
-|       |   `-- 8.png
-|       `-- uniswap.png
+|-- App.js
+|-- _mocks_
+|   |-- account.js
+|   |-- blog.js
+|   |-- products.js
+|   `-- user.js
 |-- components
-|   |-- accordion
-|   |   |-- accordion.js
-|   |   |-- base-accordion.js
-|   |   `-- shared.js
-|   |-- cards
-|   |   |-- price-table.js
-|   |   `-- testimonial.js
-|   |-- drawer.js
-|   |-- footer
-|   |   `-- footer.js
-|   |-- header
-|   |   |-- header.data.js
-|   |   |-- header.js
-|   |   `-- navbar-drawer.js
-|   |-- icons
-|   |   |-- bar-chart.js
-|   |   |-- cog.js
-|   |   |-- currency.js
-|   |   |-- logo.js
-|   |   |-- pie-chart.js
-|   |   `-- suitcase.js
-|   |-- image.js
-|   |-- layout.js
-|   |-- link.js
-|   |-- logo.js
-|   |-- section-heading.js
-|   |-- seo.js
-|   |-- subscription-form.js
-|   |-- switch.js
-|   `-- tabs
-|       |-- tab-content.js
-|       `-- tab-title.js
-|-- contexts
-|   `-- drawer
-|       |-- drawer-context.js
-|       `-- drawer-provider.js
+|   |-- @material-extend
+|   |   |-- MHidden.js
+|   |   `-- index.js
+|   |-- ColorManyPicker.js
+|   |-- ColorPreview.js
+|   |-- Label.js
+|   |-- Logo.js
+|   |-- MenuPopover.js
+|   |-- NavSection.js
+|   |-- Page.js
+|   |-- ScrollToTop.js
+|   |-- Scrollbar.js
+|   |-- SearchNotFound.js
+|   |-- SvgIconStyle.js
+|   |-- _dashboard
+|   |   |-- app
+|   |   |   |-- AppBugReports.js
+|   |   |   |-- AppConversionRates.js
+|   |   |   |-- AppCurrentSubject.js
+|   |   |   |-- AppCurrentVisits.js
+|   |   |   |-- AppItemOrders.js
+|   |   |   |-- AppNewUsers.js
+|   |   |   |-- AppNewsUpdate.js
+|   |   |   |-- AppOrderTimeline.js
+|   |   |   |-- AppTasks.js
+|   |   |   |-- AppTrafficBySite.js
+|   |   |   |-- AppWebsiteVisits.js
+|   |   |   |-- AppWeeklySales.js
+|   |   |   `-- index.js
+|   |   |-- blog
+|   |   |   |-- BlogPostCard.js
+|   |   |   |-- BlogPostsSearch.js
+|   |   |   |-- BlogPostsSort.js
+|   |   |   `-- index.js
+|   |   |-- products
+|   |   |   |-- ProductCard.js
+|   |   |   |-- ProductCartWidget.js
+|   |   |   |-- ProductFilterSidebar.js
+|   |   |   |-- ProductList.js
+|   |   |   |-- ProductSort.js
+|   |   |   `-- index.js
+|   |   `-- user
+|   |       |-- UserListHead.js
+|   |       |-- UserListToolbar.js
+|   |       |-- UserMoreMenu.js
+|   |       `-- index.js
+|   |-- animate
+|   |   |-- MotionContainer.js
+|   |   |-- index.js
+|   |   `-- variants
+|   |       |-- Wrap.js
+|   |       |-- bounce
+|   |       |   |-- BounceIn.js
+|   |       |   |-- BounceOut.js
+|   |       |   `-- index.js
+|   |       `-- index.js
+|   |-- authentication
+|   |   |-- AuthSocial.js
+|   |   |-- login
+|   |   |   |-- LoginForm.js
+|   |   |   `-- index.js
+|   |   `-- register
+|   |       |-- RegisterForm.js
+|   |       `-- index.js
+|   `-- charts
+|       |-- BaseOptionChart.js
+|       `-- index.js
+|-- index.js
+|-- layouts
+|   |-- AuthLayout.js
+|   |-- LogoOnlyLayout.js
+|   `-- dashboard
+|       |-- AccountPopover.js
+|       |-- DashboardNavbar.js
+|       |-- DashboardSidebar.js
+|       |-- LanguagePopover.js
+|       |-- NotificationsPopover.js
+|       |-- Searchbar.js
+|       |-- SidebarConfig.js
+|       `-- index.js
 |-- pages
-|   |-- _app.js
-|   |-- _document.js
-|   `-- index.js
-|-- sections
-|   |-- app-feature.js
-|   |-- banner.js
-|   |-- dashboard.js
-|   |-- happyness.js
-|   |-- subscribe.js
-|   `-- support.js
-`-- theme
-    `-- index.js
-
+|   |-- Blog.js
+|   |-- DashboardApp.js
+|   |-- Login.js
+|   |-- Page404.js
+|   |-- Products.js
+|   |-- Register.js
+|   `-- User.js
+|-- reportWebVitals.js
+|-- routes.js
+|-- serviceWorker.js
+|-- setupTests.js
+|-- theme
+|   |-- breakpoints.js
+|   |-- globalStyles.js
+|   |-- index.js
+|   |-- overrides
+|   |   |-- Autocomplete.js
+|   |   |-- Backdrop.js
+|   |   |-- Button.js
+|   |   |-- Card.js
+|   |   |-- IconButton.js
+|   |   |-- Input.js
+|   |   |-- Lists.js
+|   |   |-- Paper.js
+|   |   |-- Tooltip.js
+|   |   |-- Typography.js
+|   |   `-- index.js
+|   |-- palette.js
+|   |-- shadows.js
+|   |-- shape.js
+|   `-- typography.js
+`-- utils
+    |-- formatNumber.js
+    |-- formatTime.js
+    `-- mockImages.js
 
 ```
