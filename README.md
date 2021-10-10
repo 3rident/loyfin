@@ -1,91 +1,30 @@
-# Loyfin
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
-Branches
+## Getting Started
 
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
 ```
-|-- analytics
-|   `-- index.js
-|-- assets
-|   |-- css
-|   |   `-- react-slick.css
-|   `-- images
-|       |-- app.png
-|       |-- banner.png
-|       |-- circle.png
-|       |-- corporate.png
-|       |-- dashboard.png
-|       |-- icons
-|       |   |-- check-circle.png
-|       |   |-- close.png
-|       |   |-- emoji-2.png
-|       |   |-- emoji.png
-|       |   |-- lock.png
-|       |   `-- right-arrow.png
-|       |-- logo-white.png
-|       |-- logo.png
-|       |-- messenger.png
-|       |-- superfluid.png
-|       |-- support.png
-|       |-- testimonials
-|       |   |-- 1.png
-|       |   |-- 2.png
-|       |   |-- 3.png
-|       |   |-- 4.png
-|       |   |-- 5.png
-|       |   |-- 6.png
-|       |   |-- 7.png
-|       |   `-- 8.png
-|       `-- uniswap.png
-|-- components
-|   |-- accordion
-|   |   |-- accordion.js
-|   |   |-- base-accordion.js
-|   |   `-- shared.js
-|   |-- cards
-|   |   |-- price-table.js
-|   |   `-- testimonial.js
-|   |-- drawer.js
-|   |-- footer
-|   |   `-- footer.js
-|   |-- header
-|   |   |-- header.data.js
-|   |   |-- header.js
-|   |   `-- navbar-drawer.js
-|   |-- icons
-|   |   |-- bar-chart.js
-|   |   |-- cog.js
-|   |   |-- currency.js
-|   |   |-- logo.js
-|   |   |-- pie-chart.js
-|   |   `-- suitcase.js
-|   |-- image.js
-|   |-- layout.js
-|   |-- link.js
-|   |-- logo.js
-|   |-- section-heading.js
-|   |-- seo.js
-|   |-- subscription-form.js
-|   |-- switch.js
-|   `-- tabs
-|       |-- tab-content.js
-|       `-- tab-title.js
-|-- contexts
-|   `-- drawer
-|       |-- drawer-context.js
-|       `-- drawer-provider.js
-|-- pages
-|   |-- _app.js
-|   |-- _document.js
-|   `-- index.js
-|-- sections
-|   |-- app-feature.js
-|   |-- banner.js
-|   |-- dashboard.js
-|   |-- happyness.js
-|   |-- subscribe.js
-|   `-- support.js
-`-- theme
-    `-- index.js
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on ZEIT Now
+
+The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
