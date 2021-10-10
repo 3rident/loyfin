@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - directory: "/frontend" 
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
