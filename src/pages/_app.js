@@ -6,6 +6,7 @@ import 'rc-tabs/assets/index.css';
 import 'swiper/swiper-bundle.css';
 import { Web3ReactProvider } from '@web3-react/core'
 import Web3 from 'web3'
+
 function getLibrary(provider) {
   return new Web3(provider)
 }
