@@ -6,7 +6,8 @@ import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
 import Logo from 'components/logo';
 import { NavLink } from 'components/link';
-
+import { useWeb3React } from "@web3-react/core";
+import { injected } from 'components/wallet/connectors.js';
 import menuItems from './header.data';
 // import lock from 'assets/images/icons/lock.png';
 
@@ -21,6 +22,23 @@ export default function Header() {
       isMobileMenu: false,
     });
   };
+  const { active, account, library, connector, activate, deactivate } = useWeb3React()
+
+  async function connect() {
+    try {
+      await activate(injected)
+    } catch (ex) {
+      console.log(ex)
+    }
+  }
+
+  async function disconnect() {
+    try {
+      deactivate()
+    } catch (ex) {
+      console.log(ex)
+    }
+  }
 
   return (
     <DrawerProvider>
@@ -56,9 +74,15 @@ export default function Header() {
                   </Box>
                 </Flex>
                 <Flex sx={styles.buttonGroup}>
-                  <Button variant="text" sx={styles.getStarted}>
-                    Connect Wallet
-                  </Button>
+
+                  {active ?
+                  <Button onClick={disconnect} variant="text" sx={styles.getStarted}>
+                    Disconnect Wallet
+                  </Button> : 
+                  <Button onClick={connect} variant="text" sx={styles.getStarted}>
+                  Connect Wallet
+                  </Button> 
+                  }
                 </Flex>
                 <NavbarDrawer />
               </Box>
