@@ -1,8 +1,9 @@
-name: Deploy to Skynet
+name: Deploy to Skysia
 
 on:
   push:
     branches: [skynet]
+
 
 jobs:
   build:
